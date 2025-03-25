@@ -33,6 +33,11 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
+              <img 
+                src="/lovable-uploads/1f708824-53d5-4714-bc58-a35dfdefe2fd.png" 
+                alt="Englingo Logo" 
+                className="h-8 w-8 mr-2 rounded-full"
+              />
               <span className="text-foreground text-xl font-medium">Englingo</span>
             </Link>
           </div>
