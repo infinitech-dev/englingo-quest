@@ -86,7 +86,7 @@ const Lessons = () => {
     : lessonsData.filter(lesson => lesson.level.toLowerCase() === filter.toLowerCase());
   
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-[#F2FCE2]">
       <Navbar />
       
       <main className="pt-16">
