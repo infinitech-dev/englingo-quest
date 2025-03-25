@@ -76,7 +76,7 @@ const Navbar = () => {
             </Link>
             <Link 
               to="/sign-up" 
-              className="text-primary hover:text-primary/80 font-medium ml-6 text-sm transition-colors"
+              className="button-hover bg-primary text-white rounded-full px-5 py-2 ml-4 text-sm"
             >
               Get Started
             </Link>
