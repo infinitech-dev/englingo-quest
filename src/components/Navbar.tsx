@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { cn } from '@/lib/utils';
+import { Button } from '@/components/ui/button';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -75,7 +76,7 @@ const Navbar = () => {
             </Link>
             <Link 
               to="/sign-up" 
-              className="button-hover bg-primary text-white rounded-full px-5 py-2 ml-4 text-sm"
+              className="text-primary hover:text-primary/80 font-medium ml-6 text-sm transition-colors"
             >
               Get Started
             </Link>
