@@ -1,7 +1,7 @@
 
 import React from 'react';
-import Navbar from '@/components/Navbar';
-import LessonCard from '@/components/LessonCard';
+import Navbar from '../components/Navbar';
+import LessonCard from '../components/LessonCard';
 
 const lessonsData = [
   {

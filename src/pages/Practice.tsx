@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import Navbar from '@/components/Navbar';
+import Navbar from '../components/Navbar';
 import { Mic, Play, Check, X } from 'lucide-react';
 
 const practiceData = [

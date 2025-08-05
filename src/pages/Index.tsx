@@ -1,10 +1,10 @@
 
 import React from 'react';
 import { Book, Headphones, Mic, Volume } from 'lucide-react';
-import HeroSection from '@/components/HeroSection';
-import FeatureCard from '@/components/FeatureCard';
-import LessonCard from '@/components/LessonCard';
-import Navbar from '@/components/Navbar';
+import HeroSection from '../components/HeroSection';
+import FeatureCard from '../components/FeatureCard';
+import LessonCard from '../components/LessonCard';
+import Navbar from '../components/Navbar';
 
 const featuresData = [
   {

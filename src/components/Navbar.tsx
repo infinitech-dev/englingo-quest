@@ -1,8 +1,8 @@
 
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { cn } from '@/lib/utils';
-import { Button } from '@/components/ui/button';
+import { cn } from '../lib/utils';
+import { Button } from './ui/button';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);

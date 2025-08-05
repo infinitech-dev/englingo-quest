@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import { cn } from '@/lib/utils';
+import { cn } from '../lib/utils';
 
 interface TransitionLayoutProps {
   children: React.ReactNode;
