@@ -74,7 +74,7 @@ const Lessons = () => {
       <main className="pt-16">
         <section className="page-container pt-16">
           <div className="text-center mb-16 animate-slide-down">
-            <h1 className="section-title">Explore Our Lessons11</h1>
+            <h1 className="section-title">Explore Our Lessons13</h1>
             <p className="section-subtitle mx-auto">
               Browse through our carefully crafted lessons designed to improve your English skills in various contexts.
             </p>
