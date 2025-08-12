@@ -8,7 +8,7 @@ const HeroSection = () => {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-24 sm:pt-24 sm:pb-32">
         <div className="text-center sm:max-w-3xl sm:mx-auto">
           <h1 className="animate-slide-down text-4xl sm:text-5xl md:text-6xl font-semibold text-foreground tracking-tight">
-            <span className="block">Master English 111</span>
+            <span className="block">Master English 112</span>
             <span className="block mt-1 text-primary">with elegance and ease</span>
           </h1>
 
