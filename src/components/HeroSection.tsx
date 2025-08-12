@@ -1,17 +1,14 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
-
 const HeroSection = () => {
-  return (
-    <div className="relative overflow-hidden pt-16">
+  return <div className="relative overflow-hidden pt-16">
       <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-indigo-50 opacity-50"></div>
       
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-24 sm:pt-24 sm:pb-32">
         <div className="text-center sm:max-w-3xl sm:mx-auto">
           <h1 className="animate-slide-down text-4xl sm:text-5xl md:text-6xl font-semibold text-foreground tracking-tight">
-            <span className="block">Master English</span>
+            <span className="block">Master English 111</span>
             <span className="block mt-1 text-primary">with elegance and ease</span>
           </h1>
 
@@ -20,17 +17,11 @@ const HeroSection = () => {
           </p>
 
           <div className="animate-slide-up animation-delay-200 mt-10 sm:flex sm:justify-center sm:space-x-6">
-            <Link 
-              to="/lessons" 
-              className="button-hover flex items-center justify-center px-8 py-3 rounded-full bg-primary text-white font-medium shadow-lg shadow-primary/20"
-            >
+            <Link to="/lessons" className="button-hover flex items-center justify-center px-8 py-3 rounded-full bg-primary text-white font-medium shadow-lg shadow-primary/20">
               Start Learning
               <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
-            <Link 
-              to="/practice" 
-              className="mt-4 sm:mt-0 button-hover flex items-center justify-center px-8 py-3 rounded-full bg-white text-foreground font-medium shadow-md"
-            >
+            <Link to="/practice" className="mt-4 sm:mt-0 button-hover flex items-center justify-center px-8 py-3 rounded-full bg-white text-foreground font-medium shadow-md">
               Try a Demo
             </Link>
           </div>
@@ -46,8 +37,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default HeroSection;
